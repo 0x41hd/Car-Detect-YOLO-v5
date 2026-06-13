@@ -1,0 +1,32 @@
+```text
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IPYNB Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Environments & Virtual Envs
+.venv/
+venv/
+env/
+
+# OS generated files
+.DS_Store
+
+# PyTorch Weights
+*.pt
+*.pth
+
+# YOLOv5 Submodule folder & generated outputs
+yolov5/
+runs/
+.config/
+
+# Local data cache
+*.mp4
+*.jpg
+*.jpeg
+*.png
